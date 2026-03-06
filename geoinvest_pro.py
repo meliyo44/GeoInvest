@@ -26,8 +26,8 @@ st.set_page_config(
 )
 
 # ─── API KEYS (remplacer par vos clés réelles) ────────────────────────────────
-NEWS_API_KEY = "YOUR_NEWSAPI_KEY"          # https://newsapi.org (gratuit)
-ALPHA_VANTAGE_KEY = "YOUR_ALPHA_VANTAGE"  # https://alphavantage.co (gratuit)
+NEWS_API_KEY = st.secrets.get("1fb232fad0324c0c88c06b55af37a2cb")
+ALPHA_VANTAGE_KEY = st.secrets.get("MIZDATOKYHL0CXJS")
 
 # ─── BLOOMBERG TERMINAL CSS ───────────────────────────────────────────────────
 st.markdown("""
